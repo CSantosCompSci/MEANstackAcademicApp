@@ -1,9 +1,4 @@
-To import new csv file go to Mongo terminal and enter following code:
+Academic Advising Application built on MEAN stack.
 
-mongoimport -d mydatab -c colstudents --type csv --file MajorCourses.csv(1) --headerline
-
-
-To export a new csv file enter following command:
-
-mongoexport --host localhost --db dbname --collection name --csv --out text.csv --fields ........,.....,......
-# MEANstackAcademicApp
+App is given a CSV file containing students name, courses taken and grades in courses.
+The application will present each student's academic portfolio and any necessary courses left to take in degree program.
