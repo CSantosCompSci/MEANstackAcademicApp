@@ -1,0 +1,81 @@
+.cust-profile{
+    font-size: 250px;
+}
+.cust-list{
+    font-size: 50px;
+}
+.ptwo {
+    text-align: center;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+}
+.text_center{
+    text-align: center;
+}
+.course_text{
+    font-size:medium;
+    text-align: center;
+    font-weight:bold;
+
+}
+.knowledge_container {
+    border: 6px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.skills_container{
+    border: 6px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.box_description{
+    text-align: center;
+    font-weight: bold;
+}
+.student_title{
+    text-align: center;
+    font-size: xx-large;
+
+}
+.project_box{
+    border: 6px solid black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.list-group-item{
+
+    margin: 1px 1px 1px 1px;
+    border-radius: 10px;
+    padding: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+
+}
+.color-red{
+     background-color: red;
+ }
+.color-green{
+    background-color: green;
+}
+.course_modal{
+    text-align: center;
+    font-size: x-large;
+}
+.white{
+    color: white;
+}
+.glyph_style{
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+
+

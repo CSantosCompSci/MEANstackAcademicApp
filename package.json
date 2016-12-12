@@ -1,14 +1,10 @@
 {
-  "name": "meanjs",
-  "description": "Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js.",
-  "version": "0.4.1",
+  "name": "academicAdvisingApp",
+  "description": "Academic Advising app built on Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js.",
+  "version": "0.0.1",
   "private": false,
-  "author": "https://github.com/meanjs/mean/graphs/contributors",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/meanjs/mean.git"
-  },
+  "author": "Chris Santos",
+
   "engines": {
     "node": ">=0.10.28",
     "npm": ">=1.4.28"

@@ -1,0 +1,301 @@
+<section>
+
+    <div class="page-header">
+      <div class = "student_title" data-ng-bind="(vm.colstudent.FirstName) + (vm.colstudent.LastName)"></div>
+
+    </div>
+<div class="row">
+  <button type="button" ng-csv="vm.colstudent" filename="student.csv">Export</button>
+</div>
+  <div class="list-group">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <div class="list-group-item ">
+         <div ng-class='passingValue(vm.colstudent.CPS210CompSciI)'>
+        <div class = "text_center">CPS-210 CompSci-I</div>
+        <div class = "course_text" data-ng-bind="vm.colstudent.CPS210CompSciI"></div>
+           <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS210CompSciI')"></i>
+           <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS210CompSciICOMMENT')"></i>
+
+        </div>
+      </div>
+    </div>
+      </div>
+
+    <br>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <div class="list-group-item ">
+          <div ng-class='passingValue(vm.colstudent.CPS310CompSciII)'>
+            <div class = "text_center">CPS-310 CompSci-II</div>
+            <div class = "course_text" data-ng-bind="vm.colstudent.CPS310CompSciII"></div>
+            <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS310CompSciII')"></i>
+            <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS310CompSciIICOMMENT')"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  <div class = "row">
+  <div class = "col-lg-6">
+    <div class = "knowledge_container">
+      <h3 class = "box_description">KNOWLEDGE MUST TAKE ALL</h3>
+        <div class ="row">
+        <div class="col-xs-3 col-md-3">
+          <div class="list-group-item ">
+            <div ng-class='passingValue(vm.colstudent.CPS330AssemblyArch)'>
+            <div class = "text_center">CPS-330-Assembly Arch.</div>
+            <div class = "course_text" data-ng-bind="vm.colstudent.CPS330AssemblyArch"></div>
+              <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS330AssemblyArch')"></i>
+              <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS330AssemblyArchCOMMENT')"></i>
+          </div>
+        </div>
+          </div>
+
+        <div class="col-xs-3 col-md-3">
+          <div class="list-group-item ">
+            <div ng-class='passingValue(vm.colstudent.CPS315CompSciIII)'>
+            <div class = "text_center">CPS-315 CompSci-III</div>
+            <div class = "course_text" data-ng-bind="vm.colstudent.CPS315CompSciIII"></div>
+              <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS315CompSciIII')"></i>
+              <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS315CompSciIIICOMMENT')"></i>
+          </div>
+        </div>
+          </div>
+
+        <div class="col-xs-3 col-md-3">
+          <div class="list-group-item ">
+            <div ng-class='passingValue(vm.colstudent.CPS352OOP)'>
+            <div class = "text_center">CPS-352 OOP</div>
+            <div class = "course_text" data-ng-bind="vm.colstudent.CPS352OOP"></div>
+              <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS352OOP')"></i>
+              <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS352OOPCOMMENT')"></i>
+          </div>
+        </div>
+          </div>
+
+      <div class="col-xs-3 col-md-3">
+        <div class="list-group-item ">
+          <div ng-class='passingValue(vm.colstudent.MAT320DiscreteMath)'>
+            <div class = "text_center">MAT-320 Discrete Math</div>
+          <div class = "course_text" data-ng-bind="vm.colstudent.MAT320DiscreteMath"></div>
+            <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'MAT320DiscreteMath')"></i>
+            <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'MAT320DiscreteMathCOMMENT')"></i>
+        </div>
+      </div>
+      </div>
+        </div>
+      <div class="row">
+        <div class="col-xs-3 col-md-3">
+          <div class="list-group-item ">
+            <div ng-class='passingValue(vm.colstudent.CPS340OpSys)'>
+            <div class = "text_center">CPS-340 Op-Sys.</div>
+            <div class = "course_text" data-ng-bind="vm.colstudent.CPS340OpSys"></div>
+              <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS340OpSys')"></i>
+              <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS340OpSysCOMMENT')"></i>
+          </div>
+          </div>
+        </div>
+        <div class="col-xs-3 col-md-3">
+          <div class="list-group-item ">
+            <div ng-class='passingValue(vm.colstudent.CPS340OpSys)'>
+            <div class = "text_center">CPS-425 Lang. Processing</div>
+            <div class = "course_text" data-ng-bind="vm.colstudent.CPS425LangProcessing"></div>
+              <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS425LangProcessing')"></i>
+              <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS425LangProcessingCOMMENT')"></i>
+          </div>
+            </div>
+        </div>
+        <div class="col-xs-3 col-md-3">
+          <div class="list-group-item ">
+            <div ng-class='passingValue(vm.colstudent.CPS353SoftEng)'>
+
+            <div class = "text_center">CPS-353 Software Engineering</div>
+            <div class = "course_text" data-ng-bind="vm.colstudent.CPS353SoftEng"></div>
+              <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS353SoftEng')"></i>
+              <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS353SoftEngCOMMENT')"></i>
+          </div>
+            </div>
+        </div>
+
+        <div class="col-xs-3 col-md-3">
+          <div class="list-group-item ">
+            <div ng-class='passingValue(vm.colstudent.CPS415DiscContAlgorithms)'>
+              <div class = "text_center">CPS-415 Disc. Cont. Algorithms</div>
+            <div class = "course_text" data-ng-bind="vm.colstudent.CPS415DiscContAlgorithms"></div>
+              <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS415DiscContAlgorithms')"></i>
+              <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS415DiscContAlgorithmsCOMMENT')"></i>
+          </div>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class = "col-lg-6">
+      <div class = "skills_container">
+        <h3 class = "box_description">SKILLS MUST TAKE ONE</h3>
+        <div class ="row">
+          <div class="col-xs-3 col-xs-offset-1 col-md-3 col-md-offset-1">
+            <div class="list-group-item ">
+              <div ng-class='passingValue(vm.colstudent.CPS493Elect1)'>
+                <div class = "text_center">Database</div>
+                <div class = "course_text" data-ng-bind="vm.colstudent.CPS493Elect1"></div>
+                <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS493Elect1')"></i>
+                <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS493Elect1COMMENT')"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-4  col-md-4  ">
+            <div class="list-group-item ">
+                <div class = "text_center">Web Programming</div>
+            </div>
+            </div>
+          <div class="col-xs-3 col-md-3  ">
+            <div class="list-group-item ">
+                <div class = "text_center">Networks</div>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-2 col-md-4 col-md-offset-2">
+            <div class="list-group-item ">
+               <div class = "text_center">AI Robotics</div>
+              </div>
+            </div>
+
+          <div class="col-xs-4 col-md-4">
+            <div class="list-group-item ">
+                <div class = "text_center">Embedded Linux</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+    </br>
+    <div class = "col-lg-6">
+      <div class = "knowledge_container">
+        <h3 class = "box_description">MATH, SCIENCE AND ENGINEERING (MSE), MUST TAKE ALL</h3>
+        <div class ="row">
+          <div class="col-xs-3 col-xs-offset-1 col-md-3 col-md-offset-1">
+            <div class="list-group-item ">
+              <div ng-class='passingValue(vm.colstudent.MAT251CalcI)'>
+                <div class = "text_center">MAT-251 Calc-I</div>
+                <div class = "course_text" data-ng-bind="vm.colstudent.MAT251CalcI"></div>
+                <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'MAT251CalcI')"></i>
+                <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'MAT251CalcICOMMENT')"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-3 col-md-3">
+            <div class="list-group-item ">
+              <div ng-class='passingValue(vm.colstudent.SCIENCEI)'>
+                <div class = "text_center">SCIENCE I</div>
+                <div class = "course_text" data-ng-bind="vm.colstudent.SCIENCEI"></div>
+                <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'SCIENCEI')"></i>
+                <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'SCIENCEICOMMENT')"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-3 col-md-3">
+            <div class="list-group-item ">
+              <div ng-class='passingValue(vm.colstudent.EGC230DigLogic)'>
+                <div class = "text_center">EGC-230 Digital Logic</div>
+                <div class = "course_text" data-ng-bind="vm.colstudent.EGC230DigLogic"></div>
+                <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'EGC230DigLogic')"></i>
+                <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'EGC230DigLogicCOMMENT')"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3 col-xs-offset-1 col-md-3 col-md-offset-1">
+            <div class="list-group-item ">
+              <div ng-class='passingValue(vm.colstudent.MAT252CalcII)'>
+                <div class = "text_center">MAT-251 Calc-II</div>
+                <div class = "course_text" data-ng-bind="vm.colstudent.MAT252CalcII"></div>
+                <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'MAT252CalcII')"></i>
+                <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'MAT252CalcIICOMMENT')"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-3 col-md-3">
+            <div class="list-group-item ">
+              <div ng-class='passingValue(vm.colstudent.SCIENCEII)'>
+              <div class = "text_center">SCIENCE II</div>
+              <div class = "course_text" data-ng-bind="vm.colstudent.SCIENCEII"></div>
+                <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'SCIENCEII')"></i>
+                <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'SCIENCEIICOMMENT')"></i>
+            </div>
+              </div>
+          </div>
+          <div class="col-xs-3 col-md-3">
+            <div class="list-group-item ">
+              <div ng-class='passingValue(vm.colstudent.EGC208DigLogicLab)'>
+              <div class = "text_center">EGC-208 Digital Logic Lab</div>
+              <div class = "course_text" data-ng-bind="vm.colstudent.EGC208DigLogicLab"></div>
+                <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'EGC208DigLogicLab')"></i>
+                <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'EGC208DigLogicLabCOMMENT')"></i>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </br>
+        <div class ="row">
+          <div class="col-xs-3 col-xs-offset-1 col-md-3 col-md-offset-1">
+            <div class = "project_box">
+              <div class="list-group-item ">
+                <div ng-class='passingValue(vm.colstudent.CPS493Projects)'>
+
+              <div class = "text_center">PROJECTS</div>
+              <div class = "course_text" data-ng-bind="vm.colstudent.CPS493Projects"></div>
+                  <i class = "glyphicon glyphicon-italic white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS493Projects')"></i>
+                  <i class = "glyphicon glyphicon-pencil white glyph_style" ng-click = "vm.modalUpdate('lg',
+          vm.colstudent, 'CPS493ProjectsCOMMENT')"></i>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
