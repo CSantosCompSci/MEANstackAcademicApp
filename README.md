@@ -6,7 +6,8 @@ All URLs below are screenshots of the program.
 
 Program starts with login screen:
 
-https://cloud.githubusercontent.com/assets/12478139/21115906/44e759e6-c081-11e6-877a-14f9180c945f.png
+https://cloud.githubusercontent.com/assets/12478139/21116491/cbb4b052-c083-11e6-82ec-d23bcd2928c2.png
+
 
 Displays list produced by imported CSV
 
